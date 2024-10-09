@@ -1,12 +1,15 @@
 # DevOps Project (TOOLING WEBSITE SOLUTION)
-![183053774-9dddd124-bdb1-4e78-b077-e5877b85fb33](https://github.com/user-attachments/assets/42eb748d-01f4-462b-aab6-4c4b14e29bd5)
+![183334671-0641051c-31e2-44e9-950c-b2f7197b6343](https://github.com/user-attachments/assets/b8164399-9b25-4e1e-b07c-1791bab3e9b9)
+
 ## Steps
- 1- 5 EC2 one for NFS Server, One for DB Server, 3 Three for serving website with apache ![image](https://github.com/user-attachments/assets/88895fda-9355-44a3-a7c7-e4b6e84854d6)
+ 1- 6 EC2 one for NFS Server, One for DB Server, Three for serving website with apache, One for Load Balancing ![image](https://github.com/user-attachments/assets/d6c9e67d-be62-438a-9cfb-8c4fd6e122c7)
  2- Created 3 Volumes 10GIB Each for NFS Server ![image](https://github.com/user-attachments/assets/3747b3e8-e344-4f3a-9ad7-4b639eae7b39)
  3- Installed SQL for DB Server and created DB
  ![image](https://github.com/user-attachments/assets/f60e94cb-54f4-4229-90da-dffc13900481)
  4- Connected Every websever EC2 to by allowing mysql port and Private IP 
  ![image](https://github.com/user-attachments/assets/a4e2e03f-6312-453f-82d1-be334d3d3204)
+ 5- Configure LB with ```bash file apacheLB.conf```
+ https://github.com/user-attachments/assets/a543e169-afa9-473c-8757-b59bbf190c7f
 
 ## Result
  # ![image](https://github.com/user-attachments/assets/83403909-ad35-4cd8-9426-1c7efc901e86)
