@@ -9,7 +9,7 @@
  4- Connected Every websever EC2 to by allowing mysql port and Private IP 
  ![image](https://github.com/user-attachments/assets/a4e2e03f-6312-453f-82d1-be334d3d3204)
  5- Configure LB with ```bash file apacheLB.conf```
- https://github.com/user-attachments/assets/a543e169-afa9-473c-8757-b59bbf190c7f
+[Video for LB](https://github.com/user-attachments/assets/a543e169-afa9-473c-8757-b59bbf190c7f)
 
 ## Result
  # ![image](https://github.com/user-attachments/assets/83403909-ad35-4cd8-9426-1c7efc901e86)
